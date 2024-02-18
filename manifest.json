@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Gim+",
+    "name": "BlueGim",
     "description": "Adds aditional features to Gimkit",
     "version": "1.0",
     "action": {
