@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Gim+",
+    "description": "Adds aditional features to Gimkit",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png",
+      "content_scripts": [
+        {
+          "js": ["content.js"],
+          "matches": [
+            "https://gimkit.com/"
+          ]
+        }
+      ]
+    }
+  }
